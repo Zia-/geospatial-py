@@ -45,7 +45,6 @@ dstLayer.CreateField(fieldDef)
 
 #Make an area field
 fieldDef = ogr.FieldDefn('Area', ogr.OFTReal)
-fieldDef.SetWidth(50)
 dstLayer.CreateField(fieldDef)
 
 #Read the world countries boundries shapefile
